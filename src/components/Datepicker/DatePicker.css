@@ -1,0 +1,19 @@
+.DatePicker input {
+  background-color: #3B364A !important;
+  border-bottom: 2px solid transparent !important;
+  color: rgba(255, 255, 255, 1) !important;
+  font-weight: 600 !important;
+  font-size: 12px !important;
+  padding-top: 11px !important;
+  padding-bottom: 11px !important;
+}
+
+.DatePicker input::placeholder {
+  color: rgba(255, 255, 255, .8) !important;
+  font-weight: 400 !important;
+}
+
+.DatePicker input:focus {
+  border-bottom: 2px solid #775C9D !important;
+  color: rgba(255, 255, 255, 1) !important;
+}
